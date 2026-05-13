@@ -1,0 +1,115 @@
+/* Oakfield overrides for Doxygen Awesome. */
+
+html {
+    --primary-color: #1f6f63;
+    --primary-dark-color: #164d46;
+    --primary-light-color: #78b7a8;
+    --link-color: #1c6f9f;
+
+    --page-background-color: #fdfdfb;
+    --page-foreground-color: #26343b;
+    --page-secondary-foreground-color: #66757d;
+    --separator-color: #dce5df;
+    --side-nav-background: #f5f8f6;
+
+    --content-maxwidth: 1120px;
+    --border-radius-large: 8px;
+    --border-radius-medium: 6px;
+    --border-radius-small: 4px;
+
+    --code-background: #f1f5f3;
+    --fragment-background: #f7f9f8;
+    --fragment-keyword: #8a4f9e;
+    --fragment-keywordtype: #315f9a;
+    --fragment-keywordflow: #a8562a;
+    --fragment-token: #24735a;
+    --fragment-link: #1c6f9f;
+
+    --note-color: #e6f4f1;
+    --note-color-dark: #1f6f63;
+    --note-color-darker: #164d46;
+    --warning-color: #fbf0d9;
+    --warning-color-dark: #c98319;
+    --warning-color-darker: #5a3907;
+}
+
+@media (prefers-color-scheme: dark) {
+    html:not(.light-mode) {
+        --primary-color: #71c7b7;
+        --primary-dark-color: #a3d8cf;
+        --primary-light-color: #326f64;
+        --link-color: #8ac5e2;
+
+        --page-background-color: #1d2224;
+        --page-foreground-color: #d9e3e1;
+        --page-secondary-foreground-color: #9aa9a6;
+        --separator-color: #364144;
+        --side-nav-background: #232a2d;
+
+        --code-background: #252d2f;
+        --fragment-background: #22292c;
+        --fragment-keyword: #d7a4df;
+        --fragment-keywordtype: #9dbce6;
+        --fragment-keywordflow: #e7a367;
+        --fragment-token: #9bd7bd;
+        --fragment-link: #9bcbe5;
+
+        --note-color: #173431;
+        --note-color-dark: #71c7b7;
+        --note-color-darker: #d5f1ec;
+        --warning-color: #3b2d12;
+        --warning-color-dark: #e3ad42;
+        --warning-color-darker: #f7deb0;
+    }
+}
+
+html.dark-mode {
+    --primary-color: #71c7b7;
+    --primary-dark-color: #a3d8cf;
+    --primary-light-color: #326f64;
+    --link-color: #8ac5e2;
+
+    --page-background-color: #1d2224;
+    --page-foreground-color: #d9e3e1;
+    --page-secondary-foreground-color: #9aa9a6;
+    --separator-color: #364144;
+    --side-nav-background: #232a2d;
+
+    --code-background: #252d2f;
+    --fragment-background: #22292c;
+    --fragment-keyword: #d7a4df;
+    --fragment-keywordtype: #9dbce6;
+    --fragment-keywordflow: #e7a367;
+    --fragment-token: #9bd7bd;
+    --fragment-link: #9bcbe5;
+
+    --note-color: #173431;
+    --note-color-dark: #71c7b7;
+    --note-color-darker: #d5f1ec;
+    --warning-color: #3b2d12;
+    --warning-color-dark: #e3ad42;
+    --warning-color-darker: #f7deb0;
+}
+
+#titlearea {
+    border-bottom: 1px solid var(--separator-color);
+}
+
+#projectname {
+    font-weight: 650;
+}
+
+#projectbrief {
+    color: var(--page-secondary-foreground-color);
+}
+
+div.contents {
+    padding-top: var(--spacing-large);
+}
+
+table.memberdecls .memItemLeft,
+table.memberdecls .memItemRight,
+table.fieldtable th,
+table.fieldtable td {
+    border-color: var(--separator-color);
+}

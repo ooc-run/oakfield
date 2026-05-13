@@ -1,0 +1,21 @@
+{
+    "C_Cpp.files.exclude": {
+        "**/external/**": true
+    },
+    "C_Cpp.browse.path": [
+        "${workspaceFolder}",
+        "!${workspaceFolder}/external"
+    ],
+    "C_Cpp.default.browse.path": [
+        "${workspaceFolder}",
+        "!${workspaceFolder}/external"
+    ],
+    "files.watcherExclude": {
+        "**/external/**": true
+    },
+    "search.exclude": {
+        "**/external/**": true
+    },
+    "C_Cpp.errorSquiggles": "disabled",
+    "C_Cpp.intelliSenseEngineFallback": "Enabled"
+}

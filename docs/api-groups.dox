@@ -1,0 +1,42 @@
+/**
+ * @defgroup oakfield_fields Fields
+ * @brief Multidimensional field ownership, layout, scalar-domain, and patch APIs.
+ *
+ * Fields are the primary data containers passed to operators, KernelIR backends,
+ * integrators, examples, tests, and benchmarks.
+ */
+
+/**
+ * @defgroup oakfield_buffers Buffers
+ * @brief Standalone typed buffers and non-owning buffer views.
+ */
+
+/**
+ * @defgroup oakfield_contexts Contexts
+ * @brief Simulation context, runtime state, scheduler plan, diagnostics, and world metadata.
+ */
+
+/**
+ * @defgroup oakfield_operators Operators
+ * @brief Operator descriptors, registration, metadata, split operators, and catalogue helpers.
+ */
+
+/**
+ * @defgroup oakfield_kernel_ir KernelIR
+ * @brief Intermediate representation builders, node typing, and backend execution packages.
+ */
+
+/**
+ * @defgroup oakfield_integrators Integrators
+ * @brief Time-integration configuration, registry, steppers, and diagnostics.
+ */
+
+/**
+ * @defgroup oakfield_backends Backends
+ * @brief CPU reference backend contract and optional backend capability flags.
+ */
+
+/**
+ * @defgroup oakfield_special_math Special Functions
+ * @brief Stable classical special-function helpers, Zeta/Xi evaluators, and finite-ladder utilities.
+ */

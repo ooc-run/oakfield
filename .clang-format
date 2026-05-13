@@ -1,0 +1,65 @@
+# Kirby Preferred C Formatting
+
+BasedOnStyle: LLVM
+
+## --- Indentation & Layout ---
+
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+IndentCaseLabels: true
+BreakBeforeBraces: Attach
+BraceWrapping:
+  AfterFunction: false
+  AfterStruct: false
+  AfterClass: false
+  BeforeElse: false
+  BeforeCatch: false
+  BeforeLambdaBody: false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+
+## --- Spacing ---
+
+SpaceBeforeParens: ControlStatements
+SpacesInParentheses: false
+SpacesInAngles: false
+SpaceAfterCStyleCast: true
+SpacesBeforeTrailingComments: 2
+SpaceBeforeAssignmentOperators: true
+SpacesAroundOperators: true
+SpaceInEmptyParentheses: false
+SpaceAfterLogicalNot: false
+
+## --- Alignment ---
+
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlignTrailingComments: true
+AlignOperands: true
+PointerAlignment: Left
+
+## --- Wrapping & Line Width ---
+
+ColumnLimit: 100
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+BinPackParameters: false
+BinPackArguments: false
+
+## --- Includes & Sorting ---
+
+SortIncludes: false
+IncludeBlocks: Preserve
+IncludeCategories:
+
+## --- Comments & Misc ---
+
+ReflowComments: false
+KeepEmptyLinesAtTheStartOfBlocks: false
+MaxEmptyLinesToKeep: 1
+InsertTrailingCommas: None
+Cpp11BracedListStyle: false

@@ -1,4 +1,4 @@
-PROJECT_NAME           = "Oakfield"
+PROJECT_NAME           = "Oakfield API Documentation"
 PROJECT_NUMBER         = "@PROJECT_VERSION@"
 PROJECT_BRIEF          = "Numerical core APIs"
 
